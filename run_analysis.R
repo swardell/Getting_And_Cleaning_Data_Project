@@ -38,7 +38,7 @@ trainXTab <- read.table(trainXFileLoc)
 testXTab <- read.table(testXFileLoc)
 
 # Cleanup
-rm(featuresTab)
+rm(featureTab)
 
 # Replace header IDs with measurements
 names(trainXTab) <- featureTab$FeatureName
